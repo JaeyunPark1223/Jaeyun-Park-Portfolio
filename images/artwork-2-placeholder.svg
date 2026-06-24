@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Artwork placeholder two</title>
+  <desc id="desc">A simple colorful placeholder for artwork.</desc>
+  <rect width="1200" height="900" fill="#e9eee9"/>
+  <path d="M0 670c180-90 325-95 435-15 96 70 207 58 332-35 123-92 268-83 433 27v253H0z" fill="#12695f"/>
+  <circle cx="825" cy="250" r="155" fill="#e1b84c"/>
+  <rect x="145" y="160" width="340" height="270" fill="#ffffff" opacity="0.88"/>
+  <text x="600" y="815" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#ffffff">Artwork 2</text>
+</svg>
