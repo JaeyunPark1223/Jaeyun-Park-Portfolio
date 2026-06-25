@@ -3,100 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jaeyun P Portfolio</title>
+    <title>Jaeyun Park Portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top">Jaeyun P</a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#gallery">Artwork</a>
-        <a href="#contact">Contact</a>
+      <a class="brand" href="index.html" aria-label="Go to home">JAEYUN PARK</a>
+      <nav class="tabs" aria-label="Portfolio sections">
+        <a class="active" href="index.html">Home</a>
+        <a href="artwork.html">Artwork</a>
+        <a href="photography.html">Photography</a>
+        <a href="architecture.html">Architecture</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-text">
-          <p class="eyebrow">Photography and Artwork</p>
-          <h1>Jaeyun P Portfolio</h1>
-          <p class="intro">
-            A personal collection of photos, drawings, paintings, and visual projects.
-            Edit this sentence in <strong>index.html</strong> to describe your work.
+    <main>
+      <section id="home" class="home-panel" aria-label="Home">
+        <div class="cover-wrap">
+          <img src="images/design/first-page.png" alt="Jaeyun Park portfolio cover artwork">
+          <a class="cover-button" href="artwork.html">View Artwork</a>
+        </div>
+
+        <section class="about-panel" aria-label="About Jaeyun Park">
+          <p class="kicker about-kicker">About</p>
+          <p class="about-text">
+            This portfolio presents artwork, photography, and architecture projects.
           </p>
-          <a class="button" href="#gallery">View Artwork</a>
-        </div>
-
-        <figure class="portrait">
-          <img src="images/profile-placeholder.svg" alt="Portrait placeholder">
-          <figcaption>Replace this with your photo in the images folder.</figcaption>
-        </figure>
+        </section>
       </section>
 
-      <section id="about" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>Artist Statement</h2>
-        </div>
-        <p class="large-text">
-          Write about yourself here. You can mention the materials you use, the
-          themes you explore, and what you want viewers to feel when they see
-          your work.
-        </p>
-      </section>
-
-      <section id="gallery" class="section gallery-section">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Artwork Gallery</h2>
+      <section class="work-section">
+        <div class="section-title">
+          <p class="kicker">Artwork</p>
+          <h2>Selected Works</h2>
         </div>
 
-        <div class="gallery">
-          <article class="art-card">
-            <img src="images/artwork-1-placeholder.svg" alt="Artwork placeholder">
-            <div>
-              <h3>Artwork Title One</h3>
-              <p>Medium, year. Replace this text with a short description.</p>
+        <div class="grid">
+          <article class="work-item">
+            <img src="images/artworks/dna-in-ecosystem.jpg" alt="DNA in Ecosystem artwork">
+            <div class="work-caption">
+              <h3>DNA in Ecosystem</h3>
+              <p>Mixed media artwork.</p>
             </div>
           </article>
 
-          <article class="art-card">
-            <img src="images/artwork-2-placeholder.svg" alt="Artwork placeholder">
-            <div>
-              <h3>Artwork Title Two</h3>
-              <p>Medium, year. Replace this text with a short description.</p>
+          <article class="work-item">
+            <img src="images/artworks/blue-stairways.jpg" alt="Blue stairways drawing">
+            <div class="work-caption">
+              <h3>Blue Stairways</h3>
+              <p>Drawing and architectural space study.</p>
             </div>
           </article>
 
-          <article class="art-card">
-            <img src="images/artwork-3-placeholder.svg" alt="Artwork placeholder">
-            <div>
-              <h3>Artwork Title Three</h3>
-              <p>Medium, year. Replace this text with a short description.</p>
+          <article class="work-item">
+            <img src="images/artworks/architectural-city.jpg" alt="Architectural city drawing">
+            <div class="work-caption">
+              <h3>Architectural City</h3>
+              <p>Layered drawing of imagined space.</p>
             </div>
           </article>
         </div>
-      </section>
-
-      <section id="contact" class="section contact">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2>Get In Touch</h2>
-        </div>
-        <p>
-          Email:
-          <a href="mailto:your-email@example.com">your-email@example.com</a>
-        </p>
-        <p>
-          Instagram:
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">@yourusername</a>
-        </p>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <p>© 2026 Jaeyun P. All rights reserved.</p>
-    </footer>
   </body>
 </html>
